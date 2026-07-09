@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/reg-push2-mcp",
+  "version": "1.0.0",
+  "description": "reg-push2 MCP server · stdio wrapper around @ai-native-solutions/reg-push2-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "reg-push2-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["reg-push2", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/reg-push2-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/reg-push2-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
